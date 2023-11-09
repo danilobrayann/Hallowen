@@ -1,12 +1,13 @@
 import Logo from '../../assets/logo.png';
+import { ListaNav, NavBar } from './styles';
 
 export default function Header() {
     return(
 
         <>
-        <nav>
+        <NavBar>
             <img src={Logo} alt="logo do projeto" />
-            <ul>
+            <ListaNav>
                 <li><a href="">About</a></li>
                 <li><a href="">Artists</a></li>
                 <li><a href="">Events</a></li>
@@ -15,8 +16,8 @@ export default function Header() {
                 <li><a href="">Contacts</a></li>
                 <img src="" alt="TikTok" />
                 <img src="" alt="Facebook" />
-            </ul>
-        </nav>
+            </ListaNav>
+        </NavBar>
         
         </>
     )
