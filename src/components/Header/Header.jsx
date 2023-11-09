@@ -1,5 +1,7 @@
 import Logo from '../../assets/logo.png';
-import { ListaNav, NavBar } from './styles';
+import Instagram from '../../assets/instagram.png'
+import Facbook from '../../assets/facebook.png'
+import { ListaNav, NavBar,RedeSocial } from './styles';
 
 export default function Header() {
     return(
@@ -8,14 +10,14 @@ export default function Header() {
         <NavBar>
             <img src={Logo} alt="logo do projeto" />
             <ListaNav>
-                <li><a href="">About</a></li>
-                <li><a href="">Artists</a></li>
-                <li><a href="">Events</a></li>
-                <li><a href="">News</a></li>
-                <li><a href="">Tickets</a></li>
-                <li><a href="">Contacts</a></li>
-                <img src="" alt="TikTok" />
-                <img src="" alt="Facebook" />
+                <li>About</li>
+                <li>Artists</li>
+                <li>Events</li>
+                <li>News</li>
+                <li>Tickets</li>
+                <li>Contacts</li>
+                <RedeSocial src={Instagram} alt="Instagram" />
+                <RedeSocial src={Facbook} alt="Facebook" />
             </ListaNav>
         </NavBar>
         
