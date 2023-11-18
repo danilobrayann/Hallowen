@@ -1,7 +1,7 @@
 import Logo from '../../assets/logo.png';
 import Instagram from '../../assets/instagram.png'
 import Facbook from '../../assets/facebook.png'
-import { ListaNav, NavBar,RedeSocial } from './styles';
+import { ListaNav, NavBar,RedeSocial,DivSocial } from './styles';
 
 export default function Header() {
     return(
@@ -16,8 +16,10 @@ export default function Header() {
                 <li>News</li>
                 <li>Tickets</li>
                 <li>Contacts</li>
+                <DivSocial>
                 <RedeSocial src={Instagram} alt="Instagram" />
                 <RedeSocial src={Facbook} alt="Facebook" />
+                </DivSocial>
             </ListaNav>
         </NavBar>
         
