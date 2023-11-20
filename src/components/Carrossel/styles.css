@@ -24,5 +24,37 @@
   .imagemCarrosel{
     background-position: center;
     background-size: 100%;
-    width: 100%;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .swiper-button-next::after{
+    color: orangered;
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+  .swiper-button-prev::after{
+
+    color: orangered;
+    font-size: 35px;
+    font-weight: 900;
+  }
+
+  @media screen and (max-width: 1300px){
+    #carrossel {
+      height: 100%;
+      width: 100%;
+    }
+    .imagemCarrosel{
+      background-position: center;
+      background-size: 100%;
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .mySwiper{
+      width: 100vw;
+    }
+
   }
